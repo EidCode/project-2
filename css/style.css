@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* start framework */
+
+
+/* end frame work */
+body{
+  background: #090909
+}
+.container
+{
+  width:95%;
+  margin:0 auto
+}
+.container nav{
+  width:100%;
+  height:47px;
+  background-color: #601444;
+}
+.container nav ul
+{
+  width:300px;
+  height:100%;
+  background-color: #601444;
+  margin:0 auto
+}
+.container nav ul li
+{
+  float: left;
+  list-style: none;
+  height:100%;
+  width:33.33333%;
+  padding: 3%;
+  line-height: 28px;
+  color: #fe138f;
+  cursor:pointer;
+}
+
+.container nav ul li:first-child
+{
+  color:#fff
+}
+
+.container .main{
+  width:100%;
+  height:800px;
+  background: url("../images/2.jpeg") center center;
+  background-size: cover;
+  position: relative;
+}
+.container .main h1
+{
+  position: absolute;
+  top: 73px;
+  color: #7b7b7b;
+  width: 100%;
+  text-align: center;
+  font-size: 51px;
+  font-family: 'Poiret One', cursive;
+}
+
+
+.container .gallery
+{
+  width:100%;
+  height:800px;
+
+}
+.container .gallery div
+{
+  width:25%;
+  height:33.33333%;
+  float: left;
+}
+.container .gallery div:nth-of-type(1) {
+  background: url("../images/3.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(2) {
+  background: url("../images/15.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(3) {
+  background: url("../images/7.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(4) {
+  background: url("../images/8.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(5) {
+  background: url("../images/9.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(6) {
+  background: url("../images/10.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(7) {
+  background: url("../images/11.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(8) {
+  background: url("../images/13.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(9) {
+  background: url("../images/12.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(10) {
+  background: url("../images/17.jpg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(11) {
+  background: url("../images/18.jpeg") center center;
+  background-size: cover;
+}
+.container .gallery div:nth-of-type(12) {
+  background: url("../images/19.jpeg") center center;
+  background-size: cover;
+}
+
+.container h2
+{
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  color: #fff;
+  background-color: #e30040;
+  line-height: 32px;
+}
+.container .info
+{
+  width:100%;
+  height:1000px;
+  background-color: #fff;
+  padding: 0 20% 0 20%;
+}
+.container .info h2
+{
+  width:100%;
+  height:80px;
+  text-align: center;
+  color:red;
+  background-color: #fff
+}
+
+.container .info div
+{
+  width:48%;
+  height:460px;
+  float: left;
+  margin: 5px
+}
+
+.container .info div .image
+{
+  width:100%;
+  height:70%;
+  background-color: red;
+  float: left;
+  background: url("../images/avatar.png") center center;
+  background-size: cover;
+}
+.container .info div h3
+{
+  width:100%;
+  height:20%;
+  text-align: center;
+  margin: 0;
+  line-height: 121px;
+  color: #1c53d7;
+  float: left;
+  font-size: 24px;
+
+}
+.container .info div p
+{
+  width:100%;
+  height:10%;
+  line-height: 0px;
+  text-align: center;
+  display: block;
+  float: left;
+
+}
+
+footer
+{
+  width:100%;
+  height:400px;
+  background-color: #000;
+  background: url("../images/20.jpeg") center center;
+  background-size: contain;
+  position: relative;
+}
+footer p{
+  color:#fff;
+  width:200px;
+  height:30px;
+  position: absolute;
+  bottom: 0;
+  right:0
+}
